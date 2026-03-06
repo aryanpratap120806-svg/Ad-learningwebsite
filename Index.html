@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AD Group Of Institution</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Segoe UI;
+background:#eaf2ff;
+}
+
+/* SPLASH */
+
+#splash{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#001f4d,#004aad);
+color:white;
+text-align:center;
+}
+
+/* AI LOGO */
+
+.brain-logo{
+width:220px;
+height:220px;
+}
+
+/* waves animation */
+
+.wave{
+stroke:#ff6600;
+stroke-width:4;
+fill:none;
+animation:waveMove 2s infinite ease-in-out;
+}
+
+.wave:nth-child(2){
+animation-delay:0.3s;
+}
+
+.wave:nth-child(3){
+animation-delay:0.6s;
+}
+
+@keyframes waveMove{
+
+0%{opacity:0.2; transform:scale(0.9);}
+50%{opacity:1; transform:scale(1.2);}
+100%{opacity:0.2; transform:scale(0.9);}
+
+}
+
+/* language */
+
+#google_translate_element{
+margin-top:20px;
+}
+
+/* header */
+
+header{
+background:#001f4d;
+color:white;
+padding:12px;
+display:flex;
+align-items:center;
+}
+
+.menu-btn{
+font-size:28px;
+cursor:pointer;
+margin-right:10px;
+}
+
+/* sidebar */
+
+#sidebar{
+height:100%;
+width:0;
+position:fixed;
+background:#002f6c;
+top:0;
+left:0;
+overflow-x:hidden;
+transition:0.3s;
+padding-top:60px;
+z-index:1000;
+}
+
+#sidebar a{
+display:block;
+padding:15px;
+color:white;
+text-decoration:none;
+font-size:18px;
+cursor:pointer;
+}
+
+#sidebar a:hover{
+background:#004aad;
+}
+
+/* page */
+
+.page{
+padding:20px;
+display:none;
+}
+
+.active{
+display:block;
+}
+
+h2{
+color:#003c8f;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- SPLASH -->
+
+<div id="splash">
+
+<svg class="brain-logo" viewBox="0 0 200 200">
+
+<defs>
+<linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" style="stop-color:#ff0000"/>
+<stop offset="100%" style="stop-color:#ff8800"/>
+</linearGradient>
+</defs>
+
+<!-- brain -->
+
+<path d="M60 100
+C40 60,80 40,100 70
+C120 40,160 60,140 100
+C160 140,120 160,100 130
+C80 160,40 140,60 100"
+fill="url(#grad1)"/>
+
+<!-- AD -->
+
+<text x="100" y="110"
+text-anchor="middle"
+font-size="45"
+fill="white"
+font-weight="bold">
+AD
+</text>
+
+<!-- waves -->
+
+<path class="wave" d="M150 90 q30 10 0 20"/>
+<path class="wave" d="M165 80 q40 20 0 40"/>
+<path class="wave" d="M180 70 q50 30 0 60"/>
+
+</svg>
+
+<h1>AD Group Of Institution</h1>
+
+<p style="margin-left:120px">by:- ARYAN PRATAP</p>
+
+<!-- language translate -->
+
+<div id="google_translate_element"></div>
+
+<br>
+
+<button onclick="startSite()" style="padding:10px 25px;border:none;background:#ff6600;color:white;border-radius:6px;">
+Enter Website
+</button>
+
+</div>
+
+<!-- sidebar -->
+
+<div id="sidebar">
+
+<a onclick="openPage('home')">Home</a>
+<a onclick="openPage('ai')">AI Tutorial</a>
+<a onclick="openPage('coding')">Coding</a>
+<a onclick="openPage('about')">About</a>
+
+</div>
+
+<!-- header -->
+
+<header>
+
+<span class="menu-btn" onclick="toggleMenu()">☰</span>
+
+<div>
+
+AD Group Of Institution For AI Learning and Coding
+
+</div>
+
+</header>
+
+<!-- HOME -->
+
+<div id="home" class="page active">
+
+<h2>Why AI and Coding are Important</h2>
+
+<p>
+
+Artificial Intelligence aur Coding future ki sabse important skills hain.
+
+AI machines ko intelligent banata hai aur coding computer ko instructions dene ka tarika hai.
+
+Healthcare, education, banking aur robotics sab jagah AI use ho raha hai.
+
+Coding seekhne se students websites aur apps bana sakte hain.
+
+Future mein software developers aur AI engineers ki demand bahut zyada hogi.
+
+Isi liye AD Group Of Institution ka goal hai students ko AI aur coding sikhana.
+
+</p>
+<h2>How can we earn money by AI and coding?</h2>
+<p>AI aur Coding se paise kamane ke bahut saare tareeke hain. Main tumhe simple Hindi + English mix me samjhata hoon, taaki easily samajh aaye. 🚀
+<p>1. Freelancing (Sabse Popular Way)
+Agar tum coding ya AI tools use karna jaante ho, to tum online logon ke liye kaam karke paise kama sakte ho.
+Example kaam:
+Website banana (HTML, CSS, JavaScript)
+AI chatbot banana
+Automation scripts banana
+App development
+Freelancing websites:
+Fiverr
+Upwork
+Freelancer.com
+💰 Income: ₹500 se ₹50,000+ per project.</p>
+2. AI Tools bana kar Sell karna
+Tum ek simple AI tool ya website bana sakte ho aur usko sell kar sakte ho.
+Examples:
+AI Image generator website
+AI Homework helper
+AI Resume maker
+AI Code assistant
+Log monthly subscription de sakte hain.
+💰 Income: ₹1000 – ₹1 lakh+ per month possible.
+<p>3. YouTube Channel (Coding / AI Teaching)
+Tum AI aur coding sikhane ka YouTube channel bana sakte ho.
+<p>Example content:</p>
+<p>Python tutorial</p>
+<p>AI tools ka use</p>
+<p>Website banana</p>
+<p>Platform: YouTube</p>
+<p>Income sources:</p>
+Ads,
+Sponsorship,
+Courses sell</p>
+4. Apps ya Website bana kar Ads se paisa
+Agar tum ek useful website bana do to usme ads laga sakte ho.
+Example:
+Coding learning website
+AI learning platform
+Quiz website
+Ads ke liye use hota hai:
+Google AdSense
+💰 Income: Visitors par depend karta hai.
+<p>5. Online Courses Sell karna
+Agar tum coding ya AI seekh jaate ho, to tum apna course bana kar sell kar sakte ho.
+Platforms:
+Udemy
+Skillshare</p>
+6. AI Content Creation
+AI se tum:
+Images generate
+Videos create
+Blog articles likh sakte ho
+Phir unhe sell kar sakte ho ya social media par grow kar sakte ho.</p>
+</div>
+
+<!-- AI -->
+
+<div id="ai" class="page">
+
+<h2>Top AI Tools</h2>
+
+<p>
+
+<section id="ai-tutorials">
+  <h1>Top 10 AI Tutorials</h1>
+
+  <!-- Tutorial 1 -->
+  <div class="ai-tutorial">
+    <h2>1. Introduction to AI</h2>
+    <p>AI kya hota hai, kaise kaam karta hai aur future me AI ka use.</p>
+  </div>
+
+  <!-- Tutorial 2 -->
+  <div class="ai-tutorial">
+    <h2>2. Python for AI</h2>
+    <p>Python AI me sabse important language hai. Variables, loops, functions.</p>
+  </div>
+
+  <!-- Tutorial 3 -->
+  <div class="ai-tutorial">
+    <h2>3. NumPy & Pandas Basics</h2>
+    <p>Data handling ke liye basic libraries — array, dataframe, data cleaning.</p>
+  </div>
+
+  <!-- Tutorial 4 -->
+  <div class="ai-tutorial">
+    <h2>4. Data Visualization</h2>
+    <p>Charts banane ke liye Matplotlib aur Seaborn use karna.</p>
+  </div>
+
+  <!-- Tutorial 5 -->
+  <div class="ai-tutorial">
+    <h2>5. Machine Learning Basics</h2>
+    <p>Supervised vs Unsupervised Learning, regression, classification.</p>
+  </div>
+
+  <!-- Tutorial 6 -->
+  <div class="ai-tutorial">
+    <h2>6. Scikit-Learn</h2>
+    <p>ML models train karna — Linear Regression, Decision Trees.</p>
+  </div>
+
+  <!-- Tutorial 7 -->
+  <div class="ai-tutorial">
+    <h2>7. Neural Networks</h2>
+    <p>Artificial Neural Networks ka concept aur architecture.</p>
+  </div>
+
+  <!-- Tutorial 8 -->
+  <div class="ai-tutorial">
+    <h2>8. TensorFlow & Keras</h2>
+    <p>Deep Learning libraries se models banana.</p>
+  </div>
+
+  <!-- Tutorial 9 -->
+  <div class="ai-tutorial">
+    <h2>9. Computer Vision</h2>
+    <p>Images ko AI se process karna using Convolutional Neural Networks.</p>
+  </div>
+
+  <!-- Tutorial 10 -->
+  <div class="ai-tutorial">
+    <h2>10. NLP (Natural Language Processing)</h2>
+    <p>Text data aur language models like transformers.</p>
+  </div>
+
+</section>
+
+</p>
+</div>
+<!-- coding courses -->
+<div id="coding" class="page">
+<p>
+<section id="coding-course">
+  <h1>Complete Coding Learning Guide</h1>
+
+  <!-- HTML Chapter -->
+  <div class="course">
+    <h2>Chapter 1: HTML</h2>
+    <p>HTML ka full form: <b>HyperText Markup Language</b>. Ye website ka structure banata hai.</p>
+    <p><b>Basic Tags:</b></p>
+    <ul>
+      <li>&lt;h1&gt; to &lt;h6&gt; - Headings</li>
+      <li>&lt;p&gt; - Paragraph</li>
+      <li>&lt;a href="URL"&gt; - Links</li>
+      <li>&lt;img src="image.jpg"&gt; - Images</li>
+      <li>&lt;ul&gt; / &lt;ol&gt; - Lists</li>
+      <li>&lt;table&gt; - Tables</li>
+      <li>&lt;button&gt; - Buttons</li>
+    </ul>
+    <p><b>Example:</b></p>
+    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My Website&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hello World&lt;/h1&gt;
+  &lt;p&gt;This is my first website.&lt;/p&gt;
+  &lt;a href="https://google.com"&gt;Visit Google&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+    </pre>
+  </div>
+
+  <!-- CSS Chapter -->
+  <div class="course">
+    <h2>Chapter 2: CSS</h2>
+    <p>CSS ka full form: <b>Cascading Style Sheets</b>. Ye website ko design aur style deta hai.</p>
+    <p><b>Important Properties:</b></p>
+    <ul>
+      <li>color - Text color</li>
+      <li>background-color - Background color</li>
+      <li>font-size - Font size</li>
+      <li>margin - Element ke bahar space</li>
+      <li>padding - Element ke andar space</li>
+      <li>border - Border design</li>
+      <li>display:flex - Flexible layout</li>
+    </ul>
+    <p><b>Example:</b></p>
+    <pre>
+body{
+  background-color: #e0f7ff;
+  color: #002a7a;
+  font-family: Arial, sans-serif;
+}
+
+h1{
+  text-align: center;
+  color: #004aad;
+}
+    </pre>
+  </div>
+
+  <!-- JavaScript Chapter -->
+  <div class="course">
+    <h2>Chapter 3: JavaScript</h2>
+    <p>JavaScript website ko interactive aur dynamic banata hai.</p>
+    <p><b>Important Concepts:</b></p>
+    <ul>
+      <li>Variables: let, const</li>
+      <li>Functions: function myFunc(){}</li>
+      <li>Loops: for, while</li>
+      <li>If-else conditions</li>
+      <li>DOM Manipulation: document.getElementById()</li>
+    </ul>
+    <p><b>Example:</b></p>
+    <pre>
+&lt;button onclick="hello()"&gt;Click Me&lt;/button&gt;
+
+&lt;script&gt;
+function hello(){
+  alert("Hello World");
+}
+&lt;/script&gt;
+    </pre>
+  </div>
+
+  <!-- Python Chapter -->
+  <div class="course">
+    <h2>Chapter 4: Python</h2>
+    <p>Python ek high-level language hai. Ye AI, automation aur data science me use hoti hai.</p>
+    <p><b>Important Concepts:</b></p>
+    <ul>
+      <li>Variables: x = 10, name = "Aryan"</li>
+      <li>If-Else: Conditional statements</li>
+      <li>Loops: for, while</li>
+      <li>Functions: def myFunc():</li>
+      <li>Lists: [1,2,3], Dictionaries: {"name":"Aryan"}</li>
+    </ul>
+    <p><b>Example:</b></p>
+    <pre>
+print("Hello World")
+
+name = "Aryan"
+age = 15
+
+if age &gt; 10:
+    print("Student")
+
+for i in range(5):
+    print(i)
+
+def add(a, b):
+    return a + b
+    </pre>
+  </div>
+
+  <!-- C Language Chapter -->
+  <div class="course">
+    <h2>Chapter 5: C Language</h2>
+    <p>C ek system programming language hai.</p>
+    <p><b>Important Concepts:</b></p>
+    <ul>
+      <li>Variables: int, float, char</li>
+      <li>Loops: for, while</li>
+      <li>If-Else conditions</li>
+      <li>Functions</li>
+    </ul>
+    <p><b>Example:</b></p>
+    <pre>
+#include &lt;stdio.h&gt;
+
+int main(){
+  printf("Hello World");
+  return 0;
+}
+    </pre>
+  </div>
+
+  <!-- C++ Chapter -->
+  <div class="course">
+    <h2>Chapter 6: C++</h2>
+    <p>C++ object-oriented programming language hai.</p>
+    <p><b>Important Concepts:</b></p>
+    <ul>
+      <li>Class & Objects</li>
+      <li>Variables & Functions</li>
+      <li>Loops & Conditions</li>
+      <li>Inheritance, Polymorphism (Advanced)</li>
+    </ul>
+    <p><b>Example:</b></p>
+    <pre>
+#include &lt;iostream&gt;
+using namespace std;
+
+class Student{
+public:
+  string name;
+  int age;
+};
+
+int main(){
+  Student s1;
+  s1.name = "Aryan";
+  s1.age = 15;
+
+  cout &lt;&lt; "Hello " &lt;&lt; s1.name &lt;&lt; endl;
+  return 0;
+}
+    </pre>
+  </div>
+
+</section>
+</p>
+
+</div>
+
+<!-- ABOUT -->
+
+<div id="about" class="page">
+
+<h2>About Developer</h2>
+
+<p>
+
+Name : Aryan Pratap
+
+Class : 9
+
+School :
+Jawahar Navodaya Vidyalaya Siwan
+
+Contact :
+aryanpratap120806@gmail.com
+
+Address :
+
+Vill - Maghi  
+P.O - Laxmiganj (Mustafabad)  
+Pin - 841439  
+Dist - Siwan  
+Bihar
+
+</p>
+
+</div>
+
+<script>
+
+function startSite(){
+
+document.getElementById("splash").style.display="none"
+
+}
+
+function toggleMenu(){
+
+let menu=document.getElementById("sidebar")
+
+if(menu.style.width==="220px"){
+menu.style.width="0"
+}else{
+menu.style.width="220px"
+}
+
+}
+
+function openPage(page){
+
+document.getElementById("sidebar").style.width="0"
+
+let pages=document.querySelectorAll(".page")
+
+pages.forEach(p=>p.classList.remove("active"))
+
+document.getElementById(page).classList.add("active")
+
+}
+
+/* GOOGLE TRANSLATE */
+
+function googleTranslateElementInit() {
+
+new google.translate.TranslateElement(
+{
+pageLanguage: 'en',
+includedLanguages: 'en,hi',
+layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+},
+'google_translate_element');
+
+}
+
+</script>
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+</html>
